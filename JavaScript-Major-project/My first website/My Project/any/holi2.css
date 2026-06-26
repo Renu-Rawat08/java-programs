@@ -1,0 +1,115 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body{
+    min-height: 100vh;
+    background: linear-gradient(45deg,red,yellow, rgb(255, 63, 248),rgb(0, 255, 221));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.colors span{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background: rgba(255,255,255,0.5);
+    border-radius: 50%;
+    animation: float 7s linear infinite;
+}
+.colors span:nth-child(1){
+    left: 10%;animation-delay: 0s;
+}
+.colors span:nth-child(2){
+    left: 30%;animation-delay: 1s;
+}
+.colors span:nth-child(3){
+    left: 50%;animation-delay: 2s;
+}
+.colors span:nth-child(4){
+    left: 70%;animation-delay: 3s;
+}
+.colors span:nth-child(5){
+    left: 90%;animation-delay: 4s;
+}
+@keyframes float {
+    0%{
+        top: 100%; transform: scale(0);
+    }
+    100%{
+        top: -10%; transform: scale(1);
+    }
+}
+
+.box{
+    background: white;
+    padding: 40px;
+    border-radius: 20px;
+    width: 85%;
+    max-width: 900px;
+    text-align: center;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.3);
+    animation: fadein 2s ease;
+}
+@keyframes fadein {
+    from{
+        opacity: 0; transform: translateY(40px);
+    }
+    to{
+        opacity: 1; transform: translateY(0);
+    }
+}
+.move{
+    font-size: 45px;
+    color: #ff0080;
+    white-space: nowrap;
+    animation: moveleft 6s linear infinite;
+}
+@keyframes moveleft {
+    0%{
+        transform: translateX(100%);
+    }
+        100%{   
+            transform: translateX(-100%);
+        }
+}
+
+.date{
+    font-size: 20px;
+    font-weight: bold;
+    color: #40e0d0;
+    margin-top: 10px;
+}
+.head{
+    margin: 10px 0 20px;
+    font-size: 20px;
+}
+.quotes p{
+    font-style: italic;
+    margin: 8px 0;
+    color: #444;
+}
+h2{
+    margin: 25px 0 15px;
+    color: #ff8c00;
+}
+.image{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(150,1fr));
+    gap: 15px;
+}
+.image img{
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 15px;
+    transition: transform 0.4s;
+}
+.image img:hover{
+    transform: scale(1.1);
+}

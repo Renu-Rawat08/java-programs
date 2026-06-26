@@ -1,0 +1,38 @@
+#container{
+    background-color: antiquewhite;
+    display: flex;
+    height: 400px;
+    flex-direction: row;
+    justify-content:row;
+    align-items: center;
+   /*flex-wrap:wrap ;*/
+    gap: 10px;
+}
+
+
+.box{
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+}
+
+.first{
+    background-color: blue;
+    flex-grow: 1;
+    flex-basis: 200px;
+}
+.second{
+    background-color: rgb(123, 255, 0);
+    /*flex-grow: 60;*/
+    flex-shrink: 9;
+}
+.third{
+    background-color: rgb(255, 0, 60);
+    flex-grow: 90;
+    align-self: flex-start;
+}
+.fourth{
+    background-color: rgb(255, 0, 212);
+    /*flex-grow: 65;*/
+    flex-shrink: 4;
+}

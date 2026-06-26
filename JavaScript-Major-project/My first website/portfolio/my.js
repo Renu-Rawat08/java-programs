@@ -1,0 +1,40 @@
+console.log("hello world");
+console.log(Boolean(10));
+console.log(Math.floor(Math.random()*(9999-1000+1))+1000);
+console.log(Math.max(3,56,232,234));
+console.log(Math.PI);
+console.log(Math.floor(Math.random()*11)+15);
+console.log(Math.ceil(3.4));
+console.log(Math.floor(3.4));
+console.log(Math.log10(20));
+const str1="renu";
+const str2="renu rawat";
+const day=18;
+const str3=`strike is comming soon on ${day}`;
+console.log(str1,str2,str3);
+const str=`hello coder army coder`;
+console.log(str);
+console.log(str.trim());
+console.log(str.replace("code","ien"));
+console.log(str.replaceAll("code","ien"));
+
+const names="renu,riya,hema,meena";
+console.log(names.split(","))
+console.log(str.substring(3,7));
+const a="renu";
+const b="rawat";
+const c=a+" "+b;
+console.log(c);
+console.log(24+"renu");
+console.log(245+"renu"+10);
+console.log(10+24+" " +"renu");
+console.log(str.lastIndexOf('cod'));
+console.log(str.includes('code'));
+console.log(str.slice(3,7));
+console.log(str.slice(3));
+console.log(str.slice(-3));
+
+console.log(str.length);
+console.log(str[3]);
+console.log(str.toUpperCase());
+console.log(str.toLowerCase());

@@ -1,0 +1,7 @@
+<!ELEMENT students (student+)>
+<!ELEMENT student(registerNumber , name , mobileNumber , dob ,email)>
+<!ELEMENT registerNumber(#PCDDATA)>
+<!ELEMENT name(#PCDDATA)>
+<!ELEMENT mobileNumber(#PCDDATA)>
+<!ELEMENT dob(#PCDDATA)>
+<!ELEMENT email(#PCDDATA)>

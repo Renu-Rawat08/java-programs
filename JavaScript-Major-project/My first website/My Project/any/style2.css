@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    background-color: rgb(67, 237, 67);
+    color: white;
+    gap:20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(76, 67, 67);
+    gap: 25px;
+}
+
+.navbar a{
+    padding: 11px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    color: white;
+}
+.about{
+    justify-content: center;
+    text-align: center;
+
+}
+.about h3{
+    color: blue;
+    gap: 20px;
+}
+.speaker h2{
+     color: blue;
+    gap: 20px;
+}
+.schedule h2{
+     color: blue;
+    gap: 20px;
+}
+.contact h2{
+    color: blue;
+    gap: 20px;
+}

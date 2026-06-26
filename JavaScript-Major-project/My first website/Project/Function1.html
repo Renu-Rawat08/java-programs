@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     
+    <title>Document</title>
+</head>
+<body>
+    <script>
+       function isOdd(number){
+        let rem = number % 2;
+        let isOdd = rem == 1;
+        return isOdd;
+       } 
+    //    console.log(isOdd(4));
+    //    console.log(isOdd(3));
+    //    console.log(isOdd(8));
+    //    console.log(isOdd(9));
+    //    console.log(isOdd(13));
+       function larger(num1,num2){
+        // if(num1>num2) return num1;
+        // else return num2;
+        return num1 > num2 ? num1 :num2;
+       }
+    //    console.log(larger(56,12));
+    //    console.log(larger(564,12));
+    //    console.log(larger(56,125));
+        function tofarenheit(celciusValue){
+            return 9/5*celciusValue+32;
+        }
+        console.log(tofarenheit(54));
+        console.log(tofarenheit(38));
+        console.log(tofarenheit(27));
+        
+    </script>
+</body>
+</html>
