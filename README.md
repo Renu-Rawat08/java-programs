@@ -1,2 +1,5 @@
 # Hello-world-java
-"My first Java Program on GitHub"
+"My first Java Program on GitHub."
+
+## Output
+Hello,Github!
