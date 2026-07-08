@@ -1,0 +1,12 @@
+<library>
+    <book>
+        <title>pschology of money</title>
+        <author>james clear</author>
+        <price> 400</price>
+    </book>
+    <book>
+        <title>atomic habits</title>
+        <author>james clear</author>
+        <price>499</price>
+    </book>
+</library>
