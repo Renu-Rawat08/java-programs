@@ -1,0 +1,11 @@
+language={"python","java","c++","python","c#","rubby"}
+print(type(language))
+print(language)
+empyt =set()
+print(type(empyt))
+language.add("json")
+print(language)
+language.remove("java")
+print(language)
+language.pop()
+print(language)
